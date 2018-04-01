@@ -53,7 +53,7 @@ int main() {
     
     // build and compile our shader program
     // ------------------------------------
-    Shader ourShader("/Users/juliorenner/Google Drive/Faculdade/Processamento Gráfico/Trabalhos/triangle/triangle/shader.vs", "/Users/juliorenner/Google Drive/Faculdade/Processamento Gráfico/Trabalhos/triangle/triangle/shader.fs"); // you can name your shader files however you like
+    Shader ourShader("path_to/shader.vs", "path_to/shader.fs"); // you can name your shader files however you like
     
     // Set up vertex data (and buffer(s)) and attribute pointers
     GLfloat vertices[] = {
